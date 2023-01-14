@@ -1,0 +1,95 @@
+
+
+/*
+General style
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
+
+:root{
+    --clr-prime: hsl(216, 95%, 58%);
+    --clr-bg:hsl(218, 44%, 22%);
+    --clr-neutral-2:hsl(220, 15%, 55%);
+    --clr-neutral-1: hsl(212, 45%, 89%);
+    --clr-neutral:hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Outfit';
+    background-color: var(--clr-neutral-1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body{
+    width: 90%;
+    max-width: 32rem;
+    background-color: var(--clr-neutral);
+    border-radius: 15px;
+    padding: 1.6rem;
+    text-align: center;
+}
+
+.main-header{
+    background-image: url('/images/image-qr-code.png');
+    
+    background-size: contain;
+    border-radius: 10px;
+    height: 28.8rem;
+    /*display: grid;
+    place-items: center;
+*/
+    margin-bottom: 2.4rem;
+    
+}
+
+.main-header-img{
+    width: 16rem;
+    height: 16rem;
+    background: #ccc;
+}
+
+
+
+.text>*{
+    display: block;
+}
+
+.text-title{
+    color: var(--clr-bg);
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 auto 1.6rem;
+    width: 90%;
+    
+}
+
+.text-description{
+    color: var(--clr-neutral-2);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto 4rem;
+}
+
+
+
+
